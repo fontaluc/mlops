@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
