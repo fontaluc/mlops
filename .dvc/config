@@ -1,4 +1,4 @@
 [core]
-    remote = storage
-['remote "storage"']
-    url = gdrive://1ONO_H0RWMD8zWXRCaz1eYlLOVIDZZdXY
+    remote = remote_storage
+['remote "remote_storage"']
+    url = gs://bucket-mlops-fontaluc/
