@@ -25,6 +25,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - uses: iterative/setup-dvc@v1
+
+    - name: Get data
+      run: dvc pull
+      env:
+        GDRIVE_CREDENTIALS_DATA: $
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
